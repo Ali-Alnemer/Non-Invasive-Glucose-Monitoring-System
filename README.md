@@ -1,1 +1,4 @@
 # Non-Invasive-Glucose-Monitoring-System
+This is the final report of our senior design project, which is about designing a non-invasive glucose monitoring system, implement it, and test it experimentally with multiple scenarios to accomplish proper findings of the relationship between the patients’ glucose level and the output voltage from the designed circuit. The designed circuit contains at the input a LNA that amplify the reflected signal, which is weaker than the transmitted signal. The amplified signal, then, get filtered by a BPF to eliminate the surrounding noises. After that, the signal is converted to DC voltage using the RF to transfer it to the microcontroller, which is the BLE Arduino nano, since it accepts DC voltage only. The microcontroller processes the voltage and convert it to glucose level at the patient’s screen. 
+
+# for more information read the (Non-Invasive Glucose Monitoring System) PDF file
